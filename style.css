@@ -1,0 +1,21 @@
+body {
+    background-color: #007399;
+}
+
+#title {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#chess {
+    width: 800px;
+    margin: auto;
+    background-color: #00ace6;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+
+#chess div {
+    width: 100px;
+    height: 100px;
+}
